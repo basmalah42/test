@@ -1,0 +1,15 @@
+.layers {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.layers:hover {
+    opacity: 0.8;
+}
+
+.size{
+    width: 400px;
+    height: 250px;
+}
+.style{
+    height: 200px;
+}

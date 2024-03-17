@@ -1,0 +1,8 @@
+
+.test{
+    background-color: #2C3E50;
+}
+.padding{
+    padding: 25px 0px;
+    transition: padding 0.5s;
+}

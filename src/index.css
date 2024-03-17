@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ul{
+  list-style: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-brand{
+  color: white;
+}
+.nav-link  {
+  color: white;
+}
+.navbar-nav{
+  color: white;
+  
+}
+.nav-link:hover{
+  color: white;
+}
+.navbar-nav {
+  --bs-nav-link-color: white;
+  --bs-nav-link-hover-color: white;
+  --bs-nav-link-disabled-color:white;
+}
+/* .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+ background-color: #1ABC9C;
+ color: white;
+ border-radius: 10px;
+} */
+.navbar-brand:hover {
+  color: white;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+  color:white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white;
+  background-color: #1ABC9C;
+  border-radius: 10px;
+}
+.background{
+  background-color: #1ABC9C;
+}
+.color{
+ color: #1ABC9C;
+}
+.size{
+  width: 90px;
+  height: 3px;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+@media screen and (max-width:992px){
+  .form-size{
+    width: 100% !important;
+  }
+      
 }
